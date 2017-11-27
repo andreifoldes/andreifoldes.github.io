@@ -54,3 +54,14 @@ dd {
 .units-container h1 {
   padding-bottom: .2em;
 }
+
+/* by Tom */
+.content li+li {
+    margin-top: 1em;
+}
+
+div.hero-body {
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}

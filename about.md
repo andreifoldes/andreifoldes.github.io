@@ -14,7 +14,7 @@ Living, studying and improving. Watch out!
 
 Feel free to [email me](mailto:foldes.andrei@gmail.com).
 
-	<a href="https://twitter.com/foldesandrei">
+<a href="https://twitter.com/foldesandrei">
       <i class="fa fa-twitter"></i> Twitter
     </a>&nbsp;&nbsp; 
     <a href="https://github.com/andreifoldes">

@@ -1,6 +1,6 @@
 # About
 
-[My personal site](https://al3x.net/). Uses [Jekyll](https://github.com/jekyll/jekyll) for static site generation.
+[My personal site](https://andreifoldes.github.io). Uses [Jekyll](https://github.com/jekyll/jekyll) for static site generation.
 
 ## License
 

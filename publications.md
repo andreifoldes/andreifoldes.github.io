@@ -11,7 +11,7 @@ title: Publications
 	<li>
     <strong>Foldes, T.</strong>, Santamaria, L., & Lewis, P. (2023). Sleep-related benefits to transitive inference are modulated by encoding strength and joint rank. 
     <em>Learning & Memory (Cold Spring Harbor, NY)</em>, 30(9), 201-211. 
-    <a href="https://doi.org/10.1101/lm.053850.122">https://doi.org/10.1101/lm.053850.122</a>
+    <a href="https://doi.org/10.1101/lm.053787.123">https://doi.org/10.1101/lm.053787.123</a>
 	</li>
 	<li>
 	Aczel, B., Bago, B., Szollosi, A., <strong>Foldes, A.</strong>, & Lukacs, B. (2015). Measuring individual differences in decision biases: Methodological considerations. 
@@ -26,7 +26,7 @@ title: Publications
 	<li>
 		Aczel, B., Kekecs, Z., Bago, B., Szollosi, A., & <strong>Foldes, A.</strong> (2015). An empirical analysis of the methodology of automatic imitation research in a strategic context. 
 		<em>Journal of Experimental Psychology: Human Perception and Performance</em>, 41(4), 1049.
-		<a href="https://doi.org/10.1037/xhp0000050">https://doi.org/10.1037/xhp0000050</a>
+		<a href="https://doi.org/10.1037/xhp0000081">https://doi.org/10.1037/xhp0000081</a>
 	</li>
 	<li>
 		Correia, V., Bagó, B., Doyle, N., <strong>Foldes, A.</strong>, Pesout, O., & Winders, S.-J. (2013). Do basketball players rely on previous observations of opponents or decide based on ongoing interaction? 
@@ -35,7 +35,7 @@ title: Publications
 	<li>
 		Aczel, B., Bago, B., & <strong>Foldes, A.</strong> (2012). Is there evidence for automatic imitation in a strategic context? 
 		<em>Proceedings of the Royal Society B: Biological Sciences</em>, 279(1741), 3231–3233.
-		<a href="https://doi.org/10.1098/rspb.2012.0490">https://doi.org/10.1098/rspb.2012.0490</a>
+		<a href="https://doi.org/10.1098%2Frspb.2012.0500">https://doi.org/10.1098%2Frspb.2012.0500</a>
 	</li>
 	<li>
 		<b>Foldes</b>, A. (2011): Kreativitás a tudományban – egy komputatív megközelítés [Creativity in science – a computational approach]. <em>Tudományperspektíva</em> VI/1. 

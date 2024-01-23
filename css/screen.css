@@ -1,23 +1,23 @@
 /* elements */
 
 body {
-  background-color: #edf1f3;
-  color: #222;
+  background-color: #ffffff; /* white */
+  color: #000000; /* black */
   font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
 a:link {
-  color: #336699;
+  color: #D4AF37; /* gold */
   text-decoration: none;
 }
 
 a:visited {
-  color: #660000;
+  color: #C0C0C0; /* silver */
   text-decoration: none;
 }
 
 a:hover {
-  color: #336699;
+  color: #D4AF37; /* gold */
 }
 
 dl dt {

@@ -6,7 +6,7 @@ title: About
 # About the author
 
 My name is Tamas Andrei Foldes (online handle is `sinandrei`). 
-I'm currently living in Cardiff, recently finishing my PhD at Cardiff University and improving my scientific thinking skills one day at a time.
+I'm currently living in Cardiff, recently submitted my PhD at Cardiff University and improving my scientific thinking skills one day at a time.
 Living, studying and improving. Watch out!
 - - -
 

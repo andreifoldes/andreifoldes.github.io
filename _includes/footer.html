@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="container">
     <div class="content">
-      &copy; 2017 Andrei Foldes
+      &copy; <span id="currentYear"></span> Tamas Andrei Foldes
       &middot;
       <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND</a>
       
@@ -10,3 +10,7 @@
 </footer>
 
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<script>
+  document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>

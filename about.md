@@ -5,8 +5,8 @@ title: About
 
 # About the author
 
-My name is Andrei Foldes (online handle is `sinandrei`). 
-I'm currently living in Munich, studying at Ludwig-Maximilians Universität and improving my scientific thinking skills one day at a time.
+My name is Tamas Andrei Foldes (online handle is `sinandrei`). 
+I'm currently living in Cardiff, recently submitted my PhD at Cardiff University and improving my scientific thinking skills one day at a time.
 Living, studying and improving. Watch out!
 - - -
 
@@ -14,21 +14,24 @@ Living, studying and improving. Watch out!
 
 Feel free to [email me](mailto:foldes.andrei@gmail.com).
 
-<a href="https://twitter.com/foldesandrei">
-      <i class="fa fa-twitter"></i> Twitter
-    </a>&nbsp;&nbsp; 
-    <a href="https://github.com/andreifoldes">
-      <i class="fa fa-github"></i> GitHub
-    </a>&nbsp;&nbsp; 
-    <a href="https://linkedin.com/in/andreifoldes">
-      <i class="fa fa-linkedin"></i> LinkedIn
-    </a>&nbsp;&nbsp;
-    <a href="https://www.researchgate.net/profile/Andrei_Foldes">
-      <i class="fa fa-researchgate"></i> Researchgate
-    </a>&nbsp;&nbsp;
-    <a href="https://www.couchsurfing.com/people/andreifoldes">
-      <i class="fa fa-couchsurfing"></i> Couchsurfing
-    </a>
+<a href="https://fosstodon.org/@sinandrei">
+  <i class="fa-brands fa-mastodon"></i> Mastodon
+  </a>&nbsp;&nbsp;
+<a href="https://twitter.com/foldesandrei"> 
+  <i class="fa-brands fa-x-twitter"></i> Twitter 
+  </a> &nbsp;&nbsp; 
+<a href="https://github.com/andreifoldes">
+  <i class="fa-brands fa-square-github"></i> GitHub
+  </a>&nbsp;&nbsp; 
+<a href="https://linkedin.com/in/andreifoldes">
+  <i class="fa-brands fa-linkedin"></i> LinkedIn
+  </a>&nbsp;&nbsp;
+<a href="https://www.researchgate.net/profile/Tamas-Foldes">
+  <i class="fa-brands fa-researchgate"></i> Researchgate
+  </a>&nbsp;&nbsp;
+<a href="https://neurostars.org/u/foldes.andrei">
+  <i class="fa-solid fa-brain"></i> Neurostars
+  </a>&nbsp;&nbsp;
 
 - - -
 

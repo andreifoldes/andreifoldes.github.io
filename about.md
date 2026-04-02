@@ -4,8 +4,7 @@ title: About
 ---
 
 My name is Tamas Andrei Foldes (online handle is `sinandrei`). 
-I'm currently living in Cardiff, recently submitted my PhD at Cardiff University and improving my scientific thinking skills one day at a time.
-Living, studying and improving. Watch out!
+I'm a Research Fellow at the Surrey Sleep Research Centre, University of Surrey, working with <a href="https://www.surrey.ac.uk/people/derk-jan-dijk">Professor Derk-Jan Dijk</a>. My current work focuses on evaluating and implementing new technologies and tools for the longitudinal assessment of brain function, symptoms and behaviour in dementia.
 
 - - -
 

@@ -1,5 +1,5 @@
 title: "Tamas Andrei Foldes"
-description: "Research Associate at Cardiff University — neuroscience, computational modelling, curiosity."
+description: "Research Fellow at the University of Surrey — sleep, dementia, longitudinal assessment."
 url: "https://andreifoldes.github.io"
 baseurl: ""
 
@@ -8,10 +8,10 @@ highlighter: rouge
 port: 3000
 
 author:
-  name: "Tamas Andrei Foldes"
-  role: "Research Associate"
-  affiliation: "Cardiff University"
-  bio: "Neuroscience researcher working on curiosity, memory consolidation, and computational modelling of cognition."
+  name: "Tamas Andrei Foldes, PhD"
+  role: "Research Fellow"
+  affiliation: "University of Surrey"
+  bio: "Research Fellow at the Surrey Sleep Research Centre, working with <a href='https://www.surrey.ac.uk/people/derk-jan-dijk'>Professor Derk-Jan Dijk</a>. Evaluating and implementing new technologies for the longitudinal assessment of brain function, symptoms and behaviour in dementia."
   email: "foldes.andrei@gmail.com"
 
 social:

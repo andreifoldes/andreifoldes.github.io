@@ -35,11 +35,15 @@ title: Publications
 <details class="presentations-dropdown">
 <summary><h2 style="display:inline; cursor:pointer;">Presentations</h2></summary>
 
+<h3>2026</h3>
 <ul>
   <li>
-    <strong>Foldes, T.</strong>, della Monica, C., Revell, V., Pineda, M. M., Ravindran, K. K. G., Skeldon, A., & Dijk, D. (2026). iEMAbot: An Open-Source Chatbot Framework for Affordable and Accessible Ecological Momentary Assessment in Circadian and Sleep Research. 28th Congress of the European Sleep Research Society (ESRS).
+    <strong>Foldes, T.</strong>, della Monica, C., Revell, V., Pineda, M. M., Ravindran, K. K. G., Skeldon, A., & Dijk, D. (2026). iEMAbot: An Open-Source Chatbot Framework for Affordable and Accessible Ecological Momentary Assessment in Circadian and Sleep Research. <em>Submitted</em> to the 28th Congress of the European Sleep Research Society (ESRS).
   </li>
+</ul>
 
+<h3>2025</h3>
+<ul>
   <li>
     <strong>Foldes, T.</strong>, Orben, A., Przybylski, A., & Tomova, L. (2025). Longitudinal Links Between Adolescent Social Media Use and Neural Reward Processing: Registered Report. Poster presented at Flux 2025.
   </li>
@@ -51,7 +55,10 @@ title: Publications
   <li>
     McGrath, T., <strong>Foldes, T.</strong>, Mansfield, K., & Przybylski, A. (2025). Causal Connections: DAG Hackathon for Mapping Time-Use to Wellbeing. Hackathon presented at the Society for the Improvement of Psychological Science Annual Conference.
   </li>
+</ul>
 
+<h3>2024</h3>
+<ul>
   <li>
     Nikolov, T. Y., <strong>Foldes, T.</strong>, Zhang, Z., Lai, Y., & D'Souza, H. (2024). Evaluating Face Detection Algorithms on a Unique Head-Mounted Camera Dataset of Young Children with and without Down Syndrome. Poster presented at the IEEE International Conference on Development and Learning.
   </li>
@@ -59,23 +66,38 @@ title: Publications
   <li>
     <strong>Foldes, T.</strong>, Murphy, C., Hodgetts, C., & Gruber, M. (2024). Curious Hippocampal Subfields: An Ultra High-Field FMRI Study on Curiosity-Enhanced Memory. Poster presented at the Cognitive Neuroscience Society Annual Meeting.
   </li>
+</ul>
 
+<h3>2023</h3>
+<ul>
   <li>
     <strong>Foldes, T.</strong>, Morton, N. W., & Lewis, P. (2023). Time-dependent consolidation in transitive inference. Poster presented at Replay@CUBRIC-2023.
   </li>
+</ul>
 
+<h3>2021</h3>
+<ul>
   <li>
     <strong>Foldes, T.</strong>, Lu, Y., & Lewis, P. (2021). A simulation model of sleep-dependent memory consolidation. Paper presented at Virtual MathPsych/ICCM 2021. Retrieved from <a href="http://mathpsych.org/presentation/539">mathpsych.org/presentation/539</a>.
   </li>
+</ul>
 
+<h3>2018</h3>
+<ul>
   <li>
     <strong>Foldes, T.</strong>, Schütz-Bosbach, S., & Kaiser, J. (2018). Posterior alpha oscillations are not predictive of prioritized working memory load in a modified change detection task. 4th Visual Search and Selective Attention Conference.
   </li>
+</ul>
 
+<h3>2014</h3>
+<ul>
   <li>
     Aczel, B., Kekecs, Z., Palfi, B., & <strong>Foldes, A.</strong> (2014). Heterogeneous factors in the naive theory of stupidity. 26th Annual Conference of the Association for Psychological Science.
   </li>
+</ul>
 
+<h3>2013</h3>
+<ul>
   <li>
     Aczel, B., Bago, B., <strong>Foldes, A.</strong>, & Szollosi, A. (2013). Methodological questions in measuring individual differences in decision biases. Society for Judgement and Decision Making Annual Conference 2013.
   </li>

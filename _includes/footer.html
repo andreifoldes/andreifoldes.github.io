@@ -26,6 +26,11 @@
           {% include icons/scholar.svg %}
         </a>
       {% endif %}
+      {% if site.social.researchgate %}
+        <a href="https://www.researchgate.net/profile/{{ site.social.researchgate }}" aria-label="ResearchGate" rel="noopener" target="_blank">
+          {% include icons/researchgate.svg %}
+        </a>
+      {% endif %}
       {% if site.social.github %}
         <a href="https://github.com/{{ site.social.github }}" aria-label="GitHub" rel="noopener" target="_blank">
           {% include icons/github.svg %}

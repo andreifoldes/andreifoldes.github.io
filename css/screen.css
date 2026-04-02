@@ -250,7 +250,24 @@ p {
 .hero-bio {
   font-size: var(--text-base);
   color: var(--color-text-muted);
-  margin: 0;
+  margin: 0 0 var(--space-md) 0;
+}
+
+.hero-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.hero-keyword {
+  font-size: var(--text-sm);
+  color: var(--color-accent);
+  background: rgba(155, 27, 48, 0.08);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: 4px;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 0.02em;
   line-height: 1.6;
 }
 

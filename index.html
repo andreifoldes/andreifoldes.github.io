@@ -11,8 +11,13 @@ title: Home
       <div class="home-left">
 
         <div class="home-card home-intro">
-          <h1 class="hero-name">{{ site.author.name }}</h1>
-          <p class="hero-role" data-orcid-role="{{ site.social.orcid }}">{{ site.author.role }}, {{ site.author.affiliation }}</p>
+          <div class="hero-header">
+            <img src="/img/profile.png" alt="{{ site.author.name }}" class="hero-photo">
+            <div>
+              <h1 class="hero-name">{{ site.author.name }}</h1>
+              <p class="hero-role" data-orcid-role="{{ site.social.orcid }}">{{ site.author.role }}, {{ site.author.affiliation }}</p>
+            </div>
+          </div>
           <p class="hero-bio">{{ site.author.bio }}</p>
           <div class="hero-keywords">
             <span class="hero-keyword">Sleep</span>

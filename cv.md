@@ -1,9 +1,7 @@
 ---
-layout: default
-title: cv
+layout: page
+title: CV
 ---
-
-# CV
 
 ## Education
 - PhD Doctor of Philosophy (Psychology), submitted, expected 2024, Cardiff University, Cardiff, United Kingdom

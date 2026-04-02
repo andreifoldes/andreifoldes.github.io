@@ -1,16 +1,44 @@
-<footer class="footer">
+<footer class="site-footer">
   <div class="container">
-    <div class="content">
-      &copy; <span id="currentYear"></span> Tamas Andrei Foldes
-      &middot;
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND</a>
-      
+    <div class="footer-social">
+      {% if site.social.linkedin %}
+        <a href="https://linkedin.com/in/{{ site.social.linkedin }}" aria-label="LinkedIn" rel="noopener" target="_blank">
+          {% include icons/linkedin.svg %}
+        </a>
+      {% endif %}
+      {% if site.social.mastodon %}
+        <a href="{{ site.social.mastodon }}" aria-label="Mastodon" rel="me noopener" target="_blank">
+          {% include icons/mastodon.svg %}
+        </a>
+      {% endif %}
+      {% if site.social.bluesky %}
+        <a href="https://bsky.app/profile/{{ site.social.bluesky }}" aria-label="Bluesky" rel="noopener" target="_blank">
+          {% include icons/bluesky.svg %}
+        </a>
+      {% endif %}
+      {% if site.social.orcid %}
+        <a href="https://orcid.org/{{ site.social.orcid }}" aria-label="ORCID" rel="noopener" target="_blank">
+          {% include icons/orcid.svg %}
+        </a>
+      {% endif %}
+      {% if site.social.scholar %}
+        <a href="https://scholar.google.com/citations?user={{ site.social.scholar }}" aria-label="Google Scholar" rel="noopener" target="_blank">
+          {% include icons/scholar.svg %}
+        </a>
+      {% endif %}
+      {% if site.social.github %}
+        <a href="https://github.com/{{ site.social.github }}" aria-label="GitHub" rel="noopener" target="_blank">
+          {% include icons/github.svg %}
+        </a>
+      {% endif %}
+      {% if site.social.semantic_scholar %}
+        <a href="https://www.semanticscholar.org/author/{{ site.social.semantic_scholar }}" aria-label="Semantic Scholar" rel="noopener" target="_blank">
+          {% include icons/semantic-scholar.svg %}
+        </a>
+      {% endif %}
     </div>
+    <p class="footer-copy">
+      &copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}
+    </p>
   </div>
 </footer>
-
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-<script>
-  document.getElementById('currentYear').textContent = new Date().getFullYear();
-</script>

@@ -2,25 +2,25 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Alex Payne</title>
- <link href="https://al3x.net/atom.xml" rel="self"/>
- <link href="https://al3x.net/"/>
+ <title>{{ site.title }}</title>
+ <link href="{{ site.url }}/atom.xml" rel="self"/>
+ <link href="{{ site.url }}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://al3x.net/</id>
+ <id>{{ site.url }}/</id>
  <author>
-   <name>Alex Payne</name>
-   <email>al3x@al3x.net</email>
+   <name>{{ site.author.name }}</name>
+   <email>{{ site.author.email }}</email>
  </author>
  {% for post in site.posts limit:10 %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="https://al3x.net{{ post.url }}"/>
+   <link href="{{ site.url }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://al3x.net{{ post.id }}</id>
+   <id>{{ site.url }}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
    <author>
-     <name>Alex Payne</name>
-     <uri>https://al3x.net/about.html</uri>
+     <name>{{ site.author.name }}</name>
+     <uri>{{ site.url }}/about.html</uri>
    </author>
  </entry>
  {% endfor %}

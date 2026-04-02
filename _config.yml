@@ -1,6 +1,38 @@
-enforce_ssl: al3x.net
-highlighter: rouge
-livereload: true
-lsi: false
+title: "Tamas Andrei Foldes"
+description: "Research Associate at Cardiff University — neuroscience, computational modelling, curiosity."
+url: "https://andreifoldes.github.io"
+baseurl: ""
+
 markdown: kramdown
+highlighter: rouge
 port: 3000
+
+author:
+  name: "Tamas Andrei Foldes"
+  role: "Research Associate"
+  affiliation: "Cardiff University"
+  bio: "Neuroscience researcher working on curiosity, memory consolidation, and computational modelling of cognition."
+  email: "foldes.andrei@gmail.com"
+
+social:
+  github: "andreifoldes"
+  linkedin: "andreifoldes"
+  mastodon: "https://fosstodon.org/@sinandrei"
+  bluesky: "sinandrei.bsky.social"
+  orcid: "0000-0002-0623-9149"
+  # scholar: "YOUR_GOOGLE_SCHOLAR_ID"
+  # semantic_scholar: "YOUR_SEMANTIC_SCHOLAR_ID"
+
+featured_repos:
+  - "digital-wellbeing/universal-data-donor"
+  - "cardiff-babylab/tinyexplorer-detection-app"
+  - "andreifoldes/o-timeusediary"
+  - "andreifoldes/htmlminer"
+
+nav_links:
+  - title: "About"
+    url: "/about.html"
+  - title: "Blog"
+    url: "/blog.html"
+  - title: "Publications"
+    url: "/publications.html"

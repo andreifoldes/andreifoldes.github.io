@@ -1,51 +1,39 @@
 ---
-layout: default
+layout: page
 title: Publications
 ---
 
-# Publications
+<!-- ORCID-powered sections -->
+<div id="orcid-section" data-orcid-id="{{ site.social.orcid }}">
 
-## Articles
+  <div class="orcid-header">
+    <a href="https://orcid.org/{{ site.social.orcid }}" target="_blank" rel="noopener" class="orcid-badge">
+      <svg class="orcid-icon" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path fill="#a6ce39" d="M256 128c0 70.7-57.3 128-128 128S0 198.7 0 128 57.3 0 128 0s128 57.3 128 128z"/><path fill="#fff" d="M86.3 186.2H70.9V79.1h15.4v107.1zM78.6 53.1c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10zM108.9 79.1h41.6c39.6 0 57 28.3 57 53.6 0 27.5-21.5 53.6-56.8 53.6h-41.8V79.1zm15.4 93.3h24.5c34.9 0 42.9-26.5 42.9-39.7 0-21.5-13.7-39.7-43.7-39.7h-23.7v79.4z"/></svg>
+      {{ site.social.orcid }}
+    </a>
+    <span class="orcid-live-label">Live from ORCID</span>
+  </div>
 
-<ul>
-	<li>
-    <strong>Foldes, T.</strong>, Santamaria, L., & Lewis, P. (2023). Sleep-related benefits to transitive inference are modulated by encoding strength and joint rank. 
-    <em>Learning & Memory (Cold Spring Harbor, NY)</em>, 30(9), 201-211. 
-    <a href="https://doi.org/10.1101/lm.053787.123">https://doi.org/10.1101/lm.053787.123</a>
-	</li>
-	<li>
-	Aczel, B., Bago, B., Szollosi, A., <strong>Foldes, A.</strong>, & Lukacs, B. (2015). Measuring individual differences in decision biases: Methodological considerations. 
-	<em>Frontiers in Psychology</em>, 6, 1770.
-	<a href="https://doi.org/10.3389/fpsyg.2015.01770">https://doi.org/10.3389/fpsyg.2015.01770</a>
-	</li>
-	<li>
-		Aczel, B., Bago, B., Szollosi, A., <strong>Foldes, A.</strong>, & Lukacs, B. (2015). Is it time for studying real-life debiasing? Evaluation of the effectiveness of an analogical intervention technique. 
-		<em>Frontiers in Psychology</em>, 6, 1120. 
-		<a href="https://doi.org/10.3389/fpsyg.2015.01120">https://doi.org/10.3389/fpsyg.2015.01120</a>
-	</li>
-	<li>
-		Aczel, B., Kekecs, Z., Bago, B., Szollosi, A., & <strong>Foldes, A.</strong> (2015). An empirical analysis of the methodology of automatic imitation research in a strategic context. 
-		<em>Journal of Experimental Psychology: Human Perception and Performance</em>, 41(4), 1049.
-		<a href="https://doi.org/10.1037/xhp0000081">https://doi.org/10.1037/xhp0000081</a>
-	</li>
-	<li>
-		Correia, V., Bagó, B., Doyle, N., <strong>Foldes, A.</strong>, Pesout, O., & Winders, S.-J. (2013). Do basketball players rely on previous observations of opponents or decide based on ongoing interaction? 
-		In <em>Proceedings of the ACM Symposium on Applied Perception</em> (p. 122).
-	</li>
-	<li>
-		Aczel, B., Bago, B., & <strong>Foldes, A.</strong> (2012). Is there evidence for automatic imitation in a strategic context? 
-		<em>Proceedings of the Royal Society B: Biological Sciences</em>, 279(1741), 3231–3233.
-		<a href="https://doi.org/10.1098%2Frspb.2012.0500">https://doi.org/10.1098%2Frspb.2012.0500</a>
-	</li>
-	<li>
-		<b>Foldes</b>, A. (2011): Kreativitás a tudományban – egy komputatív megközelítés [Creativity in science – a computational approach]. <em>Tudományperspektíva</em> VI/1. 
-	</li>
+  <div class="orcid-block">
+    <h2>Funding</h2>
+    <div id="orcid-fundings">
+      <p class="orcid-loading">Loading funding records…</p>
+    </div>
+  </div>
 
-</ul>
+  <div class="orcid-block">
+    <h2>Works</h2>
+    <div id="orcid-works">
+      <p class="orcid-loading">Loading works…</p>
+    </div>
+  </div>
 
-- - -
+</div>
 
-## Presentations
+---
+
+<details class="presentations-dropdown">
+<summary><h2 style="display:inline; cursor:pointer;">Presentations</h2></summary>
 
 <ul>
   <li>
@@ -100,5 +88,6 @@ title: Publications
   </li>
 </ul>
 
+</details>
 
- 
+<script src="/js/orcid.js" defer></script>

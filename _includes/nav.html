@@ -1,23 +1,17 @@
-<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
-  <div class="container">
-    <div class="navbar-brand">
-      
-      <button class="button navbar-burger" data-target="navMenu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-    <div class="navbar-menu" id="navMenu">
-      <div class="navbar-start">
-        <a class="navbar-item" href="/">Home</a>
-        <a href="/about.html" class="navbar-item" title="About the author and site">About</a>
-        <a href="/cv.html" class="navbar-item" title="CV">CV</a>
-        <a href="/publications.html" class="navbar-item" title="Publications">Publications</a>
-      </div>
-      <div class="navbar-end">
-      </div>
-    </div>
+<nav class="site-nav" role="navigation" aria-label="Main navigation">
+  <div class="container--wide nav-container">
+    <a href="/" class="nav-brand">{{ site.author.name }}</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      {% for link in site.nav_links %}
+        <li>
+          <a href="{{ link.url }}" {% if page.url == link.url %}class="active"{% endif %}>
+            {{ link.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
 </nav>
-

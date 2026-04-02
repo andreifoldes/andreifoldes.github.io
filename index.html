@@ -1,14 +1,67 @@
 ---
 layout: default
-title: Online Writing
+title: Home
 ---
 
-<h1 class="title">Recent posts</h1>
+<section class="home-grid-section">
+  <div class="container--wide">
+    <div class="home-grid">
 
-<ul>
-  {% for post in site.posts limit:5 %}
-    <li>
-      {{ post.date | date: "%b %d, %Y" }} &mdash; <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+      <!-- Left Column: Intro + Blog -->
+      <div class="home-left">
+
+        <div class="home-card home-intro">
+          <h1 class="hero-name">{{ site.author.name }}</h1>
+          <p class="hero-role" data-orcid-role="{{ site.social.orcid }}">{{ site.author.role }}, {{ site.author.affiliation }}</p>
+          <p class="hero-bio">{{ site.author.bio }}</p>
+        </div>
+
+        <div class="home-card home-blog">
+          <h2 class="section-heading">Recent Writing</h2>
+          {% for post in site.posts limit:2 %}
+            <article class="post-preview">
+              <time class="post-preview-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">
+                {{ post.date | date: "%b %Y" }}
+              </time>
+              <h3 class="post-preview-title">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </h3>
+              {% if post.excerpt %}
+                <p class="post-preview-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+              {% endif %}
+            </article>
+          {% endfor %}
+          <a href="/blog.html" class="section-link">All posts &rarr;</a>
+        </div>
+
+      </div>
+
+      <!-- Right Column: Projects + Heatmap -->
+      <div class="home-right">
+
+        <div class="home-card home-projects">
+          <h2 class="section-heading">Projects &amp; Tools</h2>
+          <div class="repo-grid" id="repo-grid">
+            <p class="repo-card-loading">Loading projects&hellip;</p>
+            <noscript>
+              <p>Visit my <a href="https://github.com/{{ site.social.github }}">GitHub profile</a> to see my projects.</p>
+            </noscript>
+          </div>
+        </div>
+
+        <div class="home-card home-activity">
+          <h2 class="section-heading">GitHub Activity</h2>
+          <div class="heatmap-container">
+            <img src="https://ghchart.rshah.org/9b1b30/{{ site.social.github }}" alt="GitHub contributions heatmap for {{ site.author.name }}">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+  window.__FEATURED_REPOS = {{ site.featured_repos | jsonify }};
+</script>

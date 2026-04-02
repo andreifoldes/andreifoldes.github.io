@@ -217,6 +217,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: var(--space-xl);
+  min-width: 0;
 }
 
 .home-card {
@@ -224,6 +225,11 @@ p {
   border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: var(--space-xl);
+  min-width: 0;
+}
+
+.home-activity {
+  overflow: hidden;
 }
 
 .home-intro {
@@ -340,6 +346,7 @@ p {
   text-decoration: none;
   color: var(--color-text);
   transition: border-color var(--transition-base), box-shadow var(--transition-base), transform var(--transition-base);
+  min-width: 0;
 }
 
 .repo-card:hover {
@@ -438,6 +445,7 @@ p {
 .heatmap-container {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  max-width: 100%;
 }
 
 .heatmap-container img {
@@ -848,6 +856,24 @@ main {
   .section {
     padding: var(--space-2xl) 0;
   }
+
+  .heatmap-container img {
+    width: auto;
+    min-width: 680px;
+  }
+
+  /* Constrain single-column layout on tablets */
+  .home-grid {
+    max-width: 42rem;
+    margin: 0 auto;
+  }
+}
+
+/* Tablet: 2-column repo grid */
+@media (min-width: 600px) and (max-width: 1079px) {
+  .repo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Bluesky feed */
@@ -990,4 +1016,69 @@ main {
 
 .presentations-dropdown summary h2 {
   margin: 0;
+}
+
+
+/* ---- Small screens (phones) ---- */
+
+@media (max-width: 480px) {
+  .container,
+  .container--wide {
+    padding: 0 var(--space-md);
+  }
+
+  .home-card {
+    padding: var(--space-lg);
+  }
+
+  .home-grid-section {
+    padding: var(--space-lg) 0 var(--space-xl);
+  }
+
+  .section {
+    padding: var(--space-lg) 0;
+  }
+
+  .hero-name {
+    font-size: var(--text-2xl);
+  }
+
+  .page-title {
+    font-size: var(--text-2xl);
+    margin-bottom: var(--space-xl);
+  }
+
+  .site-footer {
+    padding: var(--space-xl) 0;
+  }
+
+  .home-left,
+  .home-right {
+    gap: var(--space-lg);
+  }
+
+  .home-grid {
+    gap: var(--space-lg);
+  }
+
+  .repo-card {
+    padding: var(--space-md);
+  }
+
+  .repo-card-header {
+    flex-wrap: wrap;
+  }
+
+  .repo-card-name {
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  .repo-card-badge {
+    margin-left: 0;
+  }
+
+  .bsky-thumb {
+    max-height: 120px;
+  }
 }

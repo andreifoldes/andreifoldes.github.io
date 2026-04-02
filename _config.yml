@@ -25,10 +25,14 @@ social:
   # semantic_scholar: "YOUR_SEMANTIC_SCHOLAR_ID"
 
 featured_repos:
-  - "digital-wellbeing/universal-data-donor"
-  - "cardiff-babylab/tinyexplorer-detection-app"
-  - "andreifoldes/o-timeusediary"
-  - "andreifoldes/htmlminer"
+  - slug: "digital-wellbeing/universal-data-donor"
+    desc: "A React application that allows users to donate their PlayStation data for academic research while maintaining full control over what data is shared. Currently in BETA."
+  - slug: "cardiff-babylab/tinyexplorer-detection-app"
+    desc: "TinyExplorer Detection App: User-friendly GUI for developmental psychologists. Integrates YOLOv8 and RetinaFace models to streamline facial data analysis in infant and child research."
+  - slug: "andreifoldes/o-timeusediary"
+    desc: "A web-based tool for collecting daily activities in a timeline format. Built for research studies and time-use surveys."
+  - slug: "andreifoldes/htmlminer"
+    desc: "CLI Agentic web domain analyzer powered by Google Gemini and Firecrawl."
 
 nav_links:
   - title: "About"

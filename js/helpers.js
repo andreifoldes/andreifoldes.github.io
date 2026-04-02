@@ -85,9 +85,14 @@ function escapeHtml(str) {
 }
 
 function fetchRepos(grid, repos) {
+  // Normalize repos: support both string slugs and {slug, desc} objects
+  var repoList = repos.map(function (r) {
+    return typeof r === 'string' ? { slug: r, desc: '' } : r;
+  });
+
   Promise.all(
-    repos.map(function (slug) {
-      return fetch('https://api.github.com/repos/' + slug)
+    repoList.map(function (repo) {
+      return fetch('https://api.github.com/repos/' + repo.slug)
         .then(function (res) { return res.ok ? res.json() : null; })
         .catch(function () { return null; });
     })
@@ -99,20 +104,20 @@ function fetchRepos(grid, repos) {
       grid.appendChild(card);
     });
     if (grid.children.length === 0) {
-      // Fallback: render static cards with repo links
-      repos.forEach(function (slug) {
+      // Fallback: render static cards with repo links and descriptions
+      repoList.forEach(function (repo) {
         var card = document.createElement('a');
-        card.href = 'https://github.com/' + slug;
+        card.href = 'https://github.com/' + repo.slug;
         card.className = 'repo-card';
         card.target = '_blank';
         card.rel = 'noopener';
         card.innerHTML =
           '<div class="repo-card-header">' +
             REPO_ICON +
-            '<h3 class="repo-card-name">' + escapeHtml(slug) + '</h3>' +
+            '<h3 class="repo-card-name">' + escapeHtml(repo.slug) + '</h3>' +
             '<span class="repo-card-badge">Public</span>' +
           '</div>' +
-          '<p class="repo-card-desc">View this project on GitHub</p>';
+          '<p class="repo-card-desc">' + escapeHtml(repo.desc || 'View this project on GitHub') + '</p>';
         grid.appendChild(card);
       });
     }

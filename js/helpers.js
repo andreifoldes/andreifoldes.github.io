@@ -93,7 +93,22 @@ function fetchRepos(grid, repos) {
       grid.appendChild(card);
     });
     if (grid.children.length === 0) {
-      grid.innerHTML = '<p class="repo-card-loading">Could not load projects. <a href="https://github.com/andreifoldes">View on GitHub</a></p>';
+      // Fallback: render static cards with repo links
+      repos.forEach(function (slug) {
+        var card = document.createElement('a');
+        card.href = 'https://github.com/' + slug;
+        card.className = 'repo-card';
+        card.target = '_blank';
+        card.rel = 'noopener';
+        card.innerHTML =
+          '<div class="repo-card-header">' +
+            REPO_ICON +
+            '<h3 class="repo-card-name">' + escapeHtml(slug) + '</h3>' +
+            '<span class="repo-card-badge">Public</span>' +
+          '</div>' +
+          '<p class="repo-card-desc">View this project on GitHub</p>';
+        grid.appendChild(card);
+      });
     }
   });
 }

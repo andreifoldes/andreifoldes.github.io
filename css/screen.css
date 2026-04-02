@@ -850,6 +850,116 @@ main {
   }
 }
 
+/* Bluesky feed */
+.bluesky-heading-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.1em;
+  margin-right: var(--space-xs);
+  color: #0085ff;
+}
+
+.bluesky-loading {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
+.bsky-post {
+  display: block;
+  padding: var(--space-sm) 0;
+  border-bottom: 1px solid var(--color-border-light);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: background 0.15s;
+}
+
+.bsky-post:last-child {
+  border-bottom: none;
+}
+
+.bsky-post:hover {
+  background: var(--color-surface-warm);
+  border-radius: 6px;
+  padding-left: var(--space-sm);
+  padding-right: var(--space-sm);
+}
+
+.bsky-repost-label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: var(--text-xs);
+  color: var(--color-text-light);
+  margin-bottom: var(--space-xs);
+}
+
+.bsky-post-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-xs);
+}
+
+.bsky-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.bsky-author {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bsky-time {
+  font-size: var(--text-xs);
+  color: var(--color-text-light);
+  flex-shrink: 0;
+}
+
+.bsky-text {
+  font-size: var(--text-sm);
+  line-height: 1.5;
+  margin: 0 0 var(--space-xs) 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.bsky-images {
+  display: flex;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-xs);
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.bsky-thumb {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.bsky-images .bsky-thumb {
+  flex: 1;
+  min-width: 0;
+}
+
+.bsky-post-meta {
+  display: flex;
+  gap: var(--space-md);
+  font-size: var(--text-xs);
+  color: var(--color-text-light);
+}
+
 /* Presentations dropdown */
 .presentations-dropdown {
   margin-top: var(--space-xl);

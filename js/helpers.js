@@ -55,6 +55,12 @@ document.addEventListener('DOMContentLoaded', function () {
   if (grid && window.__FEATURED_REPOS) {
     fetchRepos(grid, window.__FEATURED_REPOS);
   }
+
+  // Bluesky feed
+  var bskyFeed = document.getElementById('bluesky-feed');
+  if (bskyFeed && window.__BLUESKY_HANDLE) {
+    fetchBlueskyFeed(bskyFeed, window.__BLUESKY_HANDLE);
+  }
 });
 
 var LANG_COLORS = {
@@ -146,4 +152,94 @@ function createRepoCard(data) {
     '<div class="repo-card-meta">' + langDot + stars + forks + '</div>';
 
   return card;
+}
+
+// Bluesky feed
+function fetchBlueskyFeed(container, handle) {
+  var API = 'https://public.api.bsky.app/xrpc/';
+
+  fetch(API + 'app.bsky.actor.getProfile?actor=' + encodeURIComponent(handle))
+    .then(function (res) { return res.ok ? res.json() : null; })
+    .then(function (profile) {
+      if (!profile) {
+        container.innerHTML = '<p class="bluesky-loading">Could not load feed.</p>';
+        return;
+      }
+      var did = profile.did;
+      return fetch(API + 'app.bsky.feed.getAuthorFeed?actor=' + encodeURIComponent(did) + '&limit=3&filter=posts_and_author_threads')
+        .then(function (res) { return res.ok ? res.json() : null; });
+    })
+    .then(function (data) {
+      if (!data || !data.feed || data.feed.length === 0) {
+        container.innerHTML = '<p class="bluesky-loading">No posts yet.</p>';
+        return;
+      }
+      container.innerHTML = '';
+      data.feed.forEach(function (item) {
+        var post = item.post;
+        var record = post.record;
+        var isRepost = !!item.reason && item.reason['$type'] === 'app.bsky.feed.defs#reasonRepost';
+        var text = record.text || '';
+        var date = new Date(record.createdAt);
+        var timeAgo = getTimeAgo(date);
+        var postUri = post.uri.replace('at://', '').replace('app.bsky.feed.post/', '');
+        var parts = postUri.split('/');
+        var postUrl = 'https://bsky.app/profile/' + post.author.handle + '/post/' + parts[parts.length - 1];
+
+        // Detect if post has images
+        var imageHtml = '';
+        if (record.embed && record.embed['$type'] === 'app.bsky.embed.images') {
+          var images = record.embed.images || [];
+          if (images.length > 0 && post.embed && post.embed.images) {
+            imageHtml = '<div class="bsky-images">';
+            post.embed.images.forEach(function (img) {
+              imageHtml += '<img src="' + img.thumb + '" alt="' + escapeHtml(img.alt || '') + '" class="bsky-thumb" loading="lazy">';
+            });
+            imageHtml += '</div>';
+          }
+        }
+
+        var repostLabel = isRepost
+          ? '<span class="bsky-repost-label"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 1l4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="M7 23l-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg> Reposted</span>'
+          : '';
+
+        var el = document.createElement('a');
+        el.href = postUrl;
+        el.className = 'bsky-post';
+        el.target = '_blank';
+        el.rel = 'noopener';
+        el.innerHTML =
+          repostLabel +
+          '<div class="bsky-post-header">' +
+            '<img src="' + (post.author.avatar || '') + '" alt="" class="bsky-avatar">' +
+            '<span class="bsky-author">' + escapeHtml(post.author.displayName || post.author.handle) + '</span>' +
+            '<span class="bsky-time">' + timeAgo + '</span>' +
+          '</div>' +
+          '<p class="bsky-text">' + escapeHtml(text) + '</p>' +
+          imageHtml +
+          '<div class="bsky-post-meta">' +
+            '<span>&#9825; ' + (post.likeCount || 0) + '</span>' +
+            '<span>&#8634; ' + (post.repostCount || 0) + '</span>' +
+            '<span>&#9993; ' + (post.replyCount || 0) + '</span>' +
+          '</div>';
+        container.appendChild(el);
+      });
+    })
+    .catch(function () {
+      container.innerHTML = '<p class="bluesky-loading">Could not load feed.</p>';
+    });
+}
+
+function getTimeAgo(date) {
+  var seconds = Math.floor((new Date() - date) / 1000);
+  if (seconds < 60) return 'just now';
+  var minutes = Math.floor(seconds / 60);
+  if (minutes < 60) return minutes + 'm';
+  var hours = Math.floor(minutes / 60);
+  if (hours < 24) return hours + 'h';
+  var days = Math.floor(hours / 24);
+  if (days < 30) return days + 'd';
+  var months = Math.floor(days / 30);
+  if (months < 12) return months + 'mo';
+  return Math.floor(months / 12) + 'y';
 }

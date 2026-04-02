@@ -37,54 +37,67 @@ title: Publications
 
 <ul>
   <li>
-    <strong>Foldes, T.</strong>, Lu, Y., & Lewis, P. (2021). A simulation model of sleep-dependent memory consolidation. 
-    Paper presented at Virtual MathPsych/ICCM. 
-    Retrieved from <a href="http://mathpsych.org/presentation/539">mathpsych.org/presentation/539</a>.
+    <strong>Foldes, T.</strong>, della Monica, C., Revell, V., Pineda, M. M., Ravindran, K. K. G., Skeldon, A., & Dijk, D. (2026). iEMAbot: An Open-Source Chatbot Framework for Affordable and Accessible Ecological Momentary Assessment in Circadian and Sleep Research. 28th Congress of the European Sleep Research Society (ESRS).
   </li>
 
   <li>
-    <strong>Foldes, T.</strong>, Schütz-Bosbach, S., & Kaiser, J. (2018). Posterior alpha oscillations are not predictive of prioritized working memory load in a modified change detection task. 
-    Poster presented at the 4th Visual Search and Selective Attention Conference, Munich.
+    <strong>Foldes, T.</strong>, Orben, A., Przybylski, A., & Tomova, L. (2025). Longitudinal Links Between Adolescent Social Media Use and Neural Reward Processing: Registered Report. Poster presented at Flux 2025.
   </li>
 
   <li>
-    Aczel, B., Kekecs, Z., Palfi, B., & <strong>Foldes, A.</strong> (2014). Heterogeneous factors in the naive theory of stupidity. 
-    Presented at the meeting of 26th Annual Conference of the Association for Psychological Science, San Francisco, CA.
+    Hakman, T. & <strong>Foldes, T.</strong> (2025). Customizing and Deploying Open-Source Web Apps with Ease. Workshop presented at the Society for the Improvement of Psychological Science Annual Conference.
   </li>
 
   <li>
-    Aczel, B., Bago, B., <strong>Foldes, A.</strong>, & Szollosi, A. (2013). Methodological questions in measuring individual differences in decision biases. 
-    In Society for Judgement and Decision Making annual Conference 2013. November 15th to 18th, Toronto.
+    McGrath, T., <strong>Foldes, T.</strong>, Mansfield, K., & Przybylski, A. (2025). Causal Connections: DAG Hackathon for Mapping Time-Use to Wellbeing. Hackathon presented at the Society for the Improvement of Psychological Science Annual Conference.
   </li>
 
   <li>
-    Bago, B., Szollosi, A., <strong>Foldes, A.</strong>, & Aczel, B. (2013). Assessing the effectiveness of an analogical debiasing technique. 
-    In Society for Judgement and Decision Making annual Conference 2013. November 15th to 18th, Toronto.
+    Nikolov, T. Y., <strong>Foldes, T.</strong>, Zhang, Z., Lai, Y., & D'Souza, H. (2024). Evaluating Face Detection Algorithms on a Unique Head-Mounted Camera Dataset of Young Children with and without Down Syndrome. Poster presented at the IEEE International Conference on Development and Learning.
   </li>
 
   <li>
-    Szollosi, A., Bago, B., <strong>Foldes, A.</strong>, & Aczel, B. (2013). Gender Differences in Decision Biases. 
-    Paper presented at the 24th Subjective Probability, Utility, and Decision Making Conference. August 18th to 22th 2013, IESE Business School, Barcelona.
+    <strong>Foldes, T.</strong>, Murphy, C., Hodgetts, C., & Gruber, M. (2024). Curious Hippocampal Subfields: An Ultra High-Field FMRI Study on Curiosity-Enhanced Memory. Poster presented at the Cognitive Neuroscience Society Annual Meeting.
   </li>
 
   <li>
-    Aczel, B., Bago, B., <strong>Foldes, A.</strong>, & Szollosi, A. (2013). Measuring individual differences in cognitive biases. 
-    In M. Knauff, Pauen, N. Sebanz, & Wachsmuth, I. (Eds.), Proceedings of the 35th Annual Conference of the Cognitive Science Society (p. 3865). Austin, TX: Cognitive Science Society.
+    <strong>Foldes, T.</strong>, Morton, N. W., & Lewis, P. (2023). Time-dependent consolidation in transitive inference. Poster presented at Replay@CUBRIC-2023.
   </li>
 
   <li>
-    Reindl, A., <strong>Foldes, A.</strong>, Csermak, A., Demetrovics, Zs., & Cziegler, I. (2013). Relationships Among Online Gaming Habits, Flow Experience, and Cognitive Control. 
-    Paper presented at the 25th Annual Convention of the Association for Psychological Science, Washington, DC.
+    <strong>Foldes, T.</strong>, Lu, Y., & Lewis, P. (2021). A simulation model of sleep-dependent memory consolidation. Paper presented at Virtual MathPsych/ICCM 2021. Retrieved from <a href="http://mathpsych.org/presentation/539">mathpsych.org/presentation/539</a>.
   </li>
 
   <li>
-    <strong>Foldes, A.</strong>, Bago, B., Lukacs, B., Szollosi, A., & Aczel, B. (2013). Measuring cognitive biases. 
-    In U. Ansorge, E. Kirchler, C. Lamm, & H. Leder (Eds.), Abstracts of the 55th Conference of Experimental Psychologists (p. 83). Lengerich, Germany: Pabst Science Publishers.
+    <strong>Foldes, T.</strong>, Schütz-Bosbach, S., & Kaiser, J. (2018). Posterior alpha oscillations are not predictive of prioritized working memory load in a modified change detection task. 4th Visual Search and Selective Attention Conference.
   </li>
 
   <li>
-    Bago, B., <strong>Foldes, A.</strong>, & Aczel, B. (2012). Is human imitative behaviour automatic? 
-    In A. Bröder, E. Erdfelder, B. E. Hilbig, T. Meiser, R. Pohlig, & D. Stahlberg (Eds.), Abstracts of the 54th Conference of Experimental Psychologists (pp. 248-249). Lengerich, Germany: Pabst Science Publishers.
+    Aczel, B., Kekecs, Z., Palfi, B., & <strong>Foldes, A.</strong> (2014). Heterogeneous factors in the naive theory of stupidity. 26th Annual Conference of the Association for Psychological Science.
+  </li>
+
+  <li>
+    Aczel, B., Bago, B., <strong>Foldes, A.</strong>, & Szollosi, A. (2013). Methodological questions in measuring individual differences in decision biases. Society for Judgement and Decision Making Annual Conference 2013.
+  </li>
+
+  <li>
+    Bago, B., Szollosi, A., <strong>Foldes, A.</strong>, & Aczel, B. (2013). Assessing the effectiveness of an analogical debiasing technique. Society for Judgement and Decision Making Annual Conference 2013.
+  </li>
+
+  <li>
+    Szollosi, A., Bago, B., <strong>Foldes, A.</strong>, & Aczel, B. (2013). Gender Differences in Decision Biases. 24th Subjective Probability, Utility, and Decision Making Conference.
+  </li>
+
+  <li>
+    Aczel, B., Bago, B., <strong>Foldes, A.</strong>, & Szollosi, A. (2013). Measuring individual differences in cognitive biases. Proceedings of the 35th Annual Conference of the Cognitive Science Society.
+  </li>
+
+  <li>
+    Reindl, A., <strong>Foldes, A.</strong>, Csermak, A., Demetrovics, Z., & Cziegler, I. (2013). Relationships Among Online Gaming Habits, Flow Experience, and Cognitive Control. 25th Annual Convention of the Association for Psychological Science.
+  </li>
+
+  <li>
+    <strong>Foldes, A.</strong>, Bago, B., Lukacs, B., Szollosi, A., & Aczel, B. (2013). Measuring cognitive biases. Abstracts of the 55th Conference of Experimental Psychologists (p. 83). Lengerich, Germany.
   </li>
 </ul>
 

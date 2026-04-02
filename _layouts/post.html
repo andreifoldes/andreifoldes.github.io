@@ -2,9 +2,16 @@
 layout: default
 ---
 
-<div class="post">
-  {{ content }}
-  <time class="is-pulled-right" datetime="{{ page.date | date: "%Y-%m-%d" }}">
-    &mdash; {{ page.date | date: "%B %e, %Y" }}
-  </time>
-</div>
+<article class="section">
+  <div class="container">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <time class="post-date" datetime="{{ page.date | date: '%Y-%m-%d' }}">
+        {{ page.date | date: "%B %e, %Y" }}
+      </time>
+    </header>
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
+</article>

@@ -1,13 +1,43 @@
-enforce_ssl: al3x.net
-highlighter: rouge
-livereload: true
-lsi: false
+title: "Tamas Andrei Foldes"
+description: "Research Fellow at the University of Surrey — sleep, dementia, longitudinal assessment."
+url: "https://andreifoldes.github.io"
+baseurl: ""
+
 markdown: kramdown
+highlighter: rouge
 port: 3000
-url: https://al3x.net
-twitter_username:     r3bl_
-github_username:      aleksandar-todorovic
-linkedin_username:    aleksandartodorovic
-google_plus_username: AleksandarTodorovićr3bl
-facebook_username:    aleksandar.todorovic.r3bl
-dribbble_username:
+
+author:
+  name: "Tamas Andrei Foldes, PhD"
+  role: "Research Fellow"
+  affiliation: "University of Surrey"
+  bio: "Research Fellow at the Surrey Sleep Research Centre, working with <a href='https://www.surrey.ac.uk/people/derk-jan-dijk'>Professor Derk-Jan Dijk</a>. Evaluating and implementing new technologies for the longitudinal assessment of brain function, symptoms and behaviour in dementia."
+  email: "foldes.andrei@gmail.com"
+
+social:
+  github: "andreifoldes"
+  linkedin: "andreifoldes"
+  mastodon: "https://fosstodon.org/@sinandrei"
+  bluesky: "sinandrei.bsky.social"
+  orcid: "0000-0002-0623-9149"
+  researchgate: "Tamas-Foldes"
+  # scholar: "YOUR_GOOGLE_SCHOLAR_ID"
+  # semantic_scholar: "YOUR_SEMANTIC_SCHOLAR_ID"
+
+featured_repos:
+  - slug: "digital-wellbeing/universal-data-donor"
+    desc: "A React application that allows users to donate their PlayStation data for academic research while maintaining full control over what data is shared. Currently in BETA."
+  - slug: "cardiff-babylab/tinyexplorer-detection-app"
+    desc: "TinyExplorer Detection App: User-friendly GUI for developmental psychologists. Integrates YOLOv8 and RetinaFace models to streamline facial data analysis in infant and child research."
+  - slug: "andreifoldes/o-timeusediary"
+    desc: "A web-based tool for collecting daily activities in a timeline format. Built for research studies and time-use surveys."
+  - slug: "andreifoldes/htmlminer"
+    desc: "CLI Agentic web domain analyzer powered by Google Gemini and Firecrawl."
+
+nav_links:
+  - title: "About"
+    url: "/about.html"
+  - title: "Blog"
+    url: "/blog.html"
+  - title: "Publications"
+    url: "/publications.html"

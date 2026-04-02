@@ -1,40 +1,22 @@
 ---
-layout: default
+layout: page
 title: About
 ---
 
-# About the author
+My name is Tamas Andrei Foldes. I'm a Research Fellow at the Surrey Sleep Research Centre, University of Surrey, working with <a href="https://www.surrey.ac.uk/people/derk-jan-dijk">Professor Derk-Jan Dijk</a>. My current work focuses on evaluating and implementing new technologies and tools for the longitudinal assessment of brain function, symptoms and behaviour in dementia.
 
-My name is Andrei Foldes (online handle is `sinandrei`). 
-I'm currently living in Munich, studying at Ludwig-Maximilians Universität and improving my scientific thinking skills one day at a time.
-Living, studying and improving. Watch out!
+- - -
+
+## Employment
+
+<div id="about-employments" data-orcid-id="{{ site.social.orcid }}">
+  <p class="orcid-loading">Loading employment records…</p>
+</div>
+
 - - -
 
 ## Contact
 
-Feel free to [email me](mailto:foldes.andrei@gmail.com).
+Feel free to <a href="#" class="email-link" data-user="foldes.andrei" data-domain="gmail.com">email me</a>. You can also find me on the social links in the footer below.
 
-<a href="https://twitter.com/foldesandrei">
-      <i class="fa fa-twitter"></i> Twitter
-    </a>&nbsp;&nbsp; 
-    <a href="https://github.com/andreifoldes">
-      <i class="fa fa-github"></i> GitHub
-    </a>&nbsp;&nbsp; 
-    <a href="https://linkedin.com/in/andreifoldes">
-      <i class="fa fa-linkedin"></i> LinkedIn
-    </a>&nbsp;&nbsp;
-    <a href="https://www.researchgate.net/profile/Andrei_Foldes">
-      <i class="fa fa-researchgate"></i> Researchgate
-    </a>&nbsp;&nbsp;
-    <a href="https://www.couchsurfing.com/people/andreifoldes">
-      <i class="fa fa-couchsurfing"></i> Couchsurfing
-    </a>
-
-- - -
-
-## This Site
-
-* Generated with [Jekyll](http://jekyllrb.com/)
-* Hosted on [GitHub Pages](https://pages.github.com/)
-* Source cloned from [al3x](https://github.com/al3x/al3x.net)
-
+<script src="/js/orcid.js" defer></script>
